@@ -15,16 +15,16 @@ This is a blog application made on django.
 
 ## Screenshots
 
-* **Login Page**
+-Login Page
   <img src="screenshots/login.png" alt="Login Page" width="300">
 
-* **Register Page**
+-Register Page
   <img src="screenshots/register.png" alt="Register Page" width="300">
 
-* **Main Page**
+-Main Page
   <img src="screenshots/main_page.png" alt="Main Page" width="300">
 
-* **Article Page**
+-Article Page
   <img src="screenshots/article_detail.png" alt="Article Page" width="500">
 
 ---
