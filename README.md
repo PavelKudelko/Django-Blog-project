@@ -25,11 +25,9 @@ This is a blog application made on django.
   <img src="screenshots/main_page.png" alt="Main Page" width="300">
 
 * **Article Page**
-  <img src="screenshots/article_detail.png" alt="Article Page" width="300">
+  <img src="screenshots/article_detail.png" alt="Article Page" width="500">
 
-
-
-
+---
 
   Thank you for visiting.
 
