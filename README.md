@@ -13,12 +13,23 @@ This is a blog application made on django.
 - Like and Unlike buttons: user can like on articles and then unlike it (login required)
 - User friendly design
 
-## Screenshots:
-* Login page
-![login_page](screenshots/login.png)
-* Register page
-![register](screenshots/register.png)
-* Main page
-![main](screenshots/main_page.png)
-* Article page
-![article](screenshots/article_detail.png)
+## Screenshots
+
+* **Login Page**
+  <img src="screenshots/login.png" alt="Login Page" width="300">
+
+* **Register Page**
+  <img src="screenshots/register.png" alt="Register Page" width="300">
+
+* **Main Page**
+  <img src="screenshots/main_page.png" alt="Main Page" width="300">
+
+* **Article Page**
+  <img src="screenshots/article_detail.png" alt="Article Page" width="300">
+
+
+
+
+
+  Thank you for visiting.
+
