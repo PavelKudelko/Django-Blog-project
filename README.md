@@ -19,7 +19,7 @@ This is a blog application made on django.
 |-------------------------|-----------------------------------------------------|
 | Login Page              | <img src="screenshots/login.png" alt="Login Page" width="500">   |
 | Register Page           | <img src="screenshots/register.png" alt="Register Page" width="500"> |
-| Main Page               | <img src="screenshots/main_page.png" alt="Main Page" width="500">     |
+| Main Page               | <img src="screenshots/main_page1.png" alt="Main Page" width="500">     |
 | Article Page            | <img src="screenshots/article_detail.png" alt="Article Page" width="700"> |
 
 
