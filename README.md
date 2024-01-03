@@ -3,7 +3,7 @@
 This is a blog application made on django.
 
 ### Status
-- In progress, code is not cleaned and more fetures will be implemented in future.
+- In progress, code is not cleaned and more features will be implemented in future as well as the frontend side of this project.
 - Articles were copied form "The Guardian" all rights for the contend belongs to "The Guardian".
 
 ## Features
