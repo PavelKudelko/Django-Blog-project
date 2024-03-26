@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Create a new article</h2>
+
+<p>Author: {{ user.get_username }}</p>
+
+<form method="POST" action="">
+    {% csrf_token %}
+    {{ form.media }}
+    {{ form.as_p }}
+    <button type="submit">Add</button>
+</form>
+
+
+{% endblock %}

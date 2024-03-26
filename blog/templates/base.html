@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}MyBlog{% endblock %}</title>
+</head>
+<body>
+<header>
+    <h1>MyBlog</h1>
+    {% if user.is_authenticated %}
+        <p>Nice to see you, {{ user.username }}!</p>
+    <form action="{% url 'blog:article-list' %}" method="post" style="display:inline;">
+        {% csrf_token %}
+        <button type="submit">Back to main</button>
+    </form>
+    ||
+    <form action="{% url 'blog:add-article' %}" method="post" style="display:inline;">
+        {% csrf_token %}
+        <button type="submit">Create article</button>
+    </form>
+    ||
+    <form method="get" action="{% url 'blog:edit-profile' %}" style="display:inline;">
+        {% csrf_token %}
+        <button type="submit">Edit Profile</button>
+    </form>
+    ||
+    <form action="{% url 'blog:logout' %}" method="post" style="display:inline;">
+        {% csrf_token %}
+        <button type="submit">Logout</button>
+    </form>
+    {% endif %}
+    <br>
+    <br>
+    <hr>
+</header>
+  {% block content %}
+  replace me
+  {% endblock %}
+</body>
+</html>
